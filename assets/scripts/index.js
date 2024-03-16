@@ -1,4 +1,4 @@
-function calculateHandshake() {
+function calculateHandshake () {
   const inputNumber = parseInt(document.getElementById('numberinput').value);
   const binaryString = inputNumber.toString(2); // Convert to binary string
 
