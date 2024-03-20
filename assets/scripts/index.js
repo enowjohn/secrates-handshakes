@@ -31,6 +31,4 @@ function displayHandshake (handshake) {
   const handshakeResult = document.getElementById('handshakeresult')
   handshakeResult.textContent = handshake.join(', ')
 }
-
 calculateHandshake ()
-
